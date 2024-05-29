@@ -23,7 +23,6 @@ window.exports = {
          // 用户选择列表中某个条目时被调用
          select: (action, itemData, callbackSetList) => {
             window.utools.hideMainWindow(true)
-            console.log(action, itemData, utools)
             utools.copyText(itemData.title+'')
          }
       }
