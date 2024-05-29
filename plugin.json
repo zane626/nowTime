@@ -1,0 +1,11 @@
+{
+  "preload": "index.js",
+	"logo": "logo.png",
+	"features": [
+		{
+		  "code": "now",
+		  "explain": "now time",
+			"cmds":["now"]
+		}
+	]
+}
